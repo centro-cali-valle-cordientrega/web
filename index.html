@@ -221,24 +221,30 @@
         <section>
             <p>Cotización de envío Express</p>
 
-            <!-- Formulario -->
-            <form action="https://formspree.io/f/xwpveegv" method="POST" enctype="multipart/form-data" id="product-form">
-                <label for="titulo">Título:</label>
-                <input type="text" id="titulo" name="titulo" required>
+            <!-- Formulario de Cotización Envío Express -->
+<form action="https://formspree.io/f/xwpveegv" method="POST" enctype="multipart/form-data" id="envio-express-form">
+    <label for="nombre-envia">Nombre de quien envía:</label>
+    <input type="text" id="nombre-envia" name="nombre-envia" required>
 
-                <label for="precio">Precio:</label>
-                <input type="number" id="precio" name="precio" required>
-                
-                <label for="celular">Celular:</label>
-                <input type="number" id="celular" name="celular" required>
+    <label for="direccion-recogida">Dirección de recogida:</label>
+    <input type="text" id="direccion-recogida" name="direccion-recogida" required>
 
-                <label for="ubicacion">Ubicación:</label>
-                <input type="text" id="ubicacion" name="ubicacion" required>
+    <label for="celular-envia">Celular de quien envía:</label>
+    <input type="number" id="celular-envia" name="celular-envia" required>
 
-                <label for="descripcion">Descripción:</label>
-                <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+    <label for="nombre-recibe">Nombre de quien recibe:</label>
+    <input type="text" id="nombre-recibe" name="nombre-recibe" required>
 
-                <button type="submit">Enviar</button>
+    <label for="celular-recibe">Celular de quien recibe:</label>
+    <input type="number" id="celular-recibe" name="celular-recibe" required>
+
+    <label for="direccion-entrega">Dirección de entrega:</label>
+    <input type="text" id="direccion-entrega" name="direccion-entrega" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+    <button type="submit">Enviar Cotización</button>
             </form>
         </section>
 
