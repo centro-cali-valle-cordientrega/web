@@ -88,7 +88,7 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 1. Clona el repositorio:
 
-git clone https://github.com/tu-usuario/contraentrega.git
+git clone https://github.com/cordientrega/community.git
 
 
 2. Abre el archivo HTML:
@@ -124,6 +124,7 @@ Correo electrónico: info@cordientrega.com
 
 Sitio web: www.cordientrega.com
 
+Tor:
 
 ¡Gracias por usar Cordientrega!
 
